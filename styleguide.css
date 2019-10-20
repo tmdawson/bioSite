@@ -1,0 +1,165 @@
+header, main { display: block; 
+}
+
+body { background-color: #F2F2F2;
+      color: #ff0000;
+	  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+li .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.wrapper 	{    
+        width: 80%;
+           min-width: 700px;
+		   max-width: 1024px;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color: #8C3F23;
+		   box-shadow: 3px 3px 3px #401C0F
+}
+
+header { background-color: #0D0B09;
+       color: #FFFFFF;
+	   font-family: Georgia, serif;
+        text-align: center;
+}
+
+main { padding-left: 20px;
+        padding-right: 20px;
+		background-color: #F2F2F2;
+		margin-left: 0px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+}
+
+main img { float: left;
+           padding-right: 20px;
+		   padding-bottom: 20px;
+}
+
+article {
+    display: block;
+}
+
+.column1of2 {
+    float: left;
+    width: 640px;
+    margin: 10px;
+    column-gap: 20em;
+}
+
+.column2of2 {
+    float: left;
+    width: 500px;
+    margin: 10px;
+    column-gap: 20em;
+}
+
+h1 { line-height: 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px; 
+	height: 120px;
+	margin-bottom: 0;
+    text-align: center;
+    color: #111111;
+}
+
+.magazine {
+    float: right;
+    padding-top: 60px;
+}
+
+h1, h2 {
+    background-color: rgb(185, 63, 8);
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkgray; 
+    font-family: Arial, sans-serif;
+	margin: 5px;
+    font-size: 30px;
+    }
+        
+.sentence {
+        font-size: larger;
+        opacity: 1;
+        color: red;
+    }
+
+.portrait { color: #8C3F23;
+          font-size: 1.2em;
+}
+
+p {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 1em;
+    color: #3A4039;
+    }
+
+.headline{ 
+font-family: Georgia, "Times New Roman", serif;
+color: #401C0F;
+background-repeat: no-repeat;
+height: 25px;
+text-shadow: 2px 2px #ff0000;
+text-align: center;
+font-size: 65px;
+border: 4px solid black;
+background-color: red;
+padding-top: 10px;
+padding-right: 50px;
+padding-bottom: 50px;
+padding-left: 100px;
+margin-right: 150px;
+margin-left: 80px;
+
+}
+    
+.chapterline {
+        font-weight: 500;
+        margin: 0;
+        font-size: 2em;
+        color: black;
+        font-style: oblique;
+    }
+
+h3 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+    color: #000033; 
+}
+
+.top {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+figcaption {
+    font-family: 'Oswald', sans-serif;        
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) { 
+	h1 { height: 100%;
+		font-size: 1.5em;
+		padding-left: .3em;}
+	main { padding-top: .1em;
+		padding-right: 0em;
+		padding-bottom: .1em;
+		padding-left: .4em;}
+	main img { display: none;
+	       padding-right: 0px;}
+}
