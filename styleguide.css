@@ -14,19 +14,25 @@ body {
     height: auto;
 }
 
+figure {
+  display: inline-block;
+  margin: 0 auto 20px auto;
+  vertical-align:middle;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, 75%);
     grid-template-areas: 
     "sidebar sidebar"
     "title mainphoto"
     "header content1"
     "content2 lastphoto";
-    grid-gap: 10px;
+    grid-gap: 1em;
     box-shadow: 3px 3px 3px darkgrey;
-              border-style: solid;
-  border-bottom-width: inherit;
+    border-style: solid;
+    border-bottom-width: inherit;
     background-color: #0D0B09;
 }
 
@@ -126,6 +132,7 @@ h2 {
     font-family: Arial, sans-serif;
 	margin: 5px;
     font-size: 30px;
+    text-align: center;
     }
 
 p {
@@ -139,8 +146,9 @@ p {
 .chapterline {
         font-weight: 500;
         margin: 0;
-        font-size: 2em;
-        color: black;
+        font-size: 2em;    
+        color: antiquewhite;
+        background-color: #8C3F23;
         font-style: oblique;
     }
 
@@ -148,12 +156,12 @@ p {
     .container {
     display: grid;
     grid-template-columns: 1fr 575px 575px 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, 75%);
     grid-template-areas: 
     ". sidebar sidebar ." 
     ". title mainphoto ."
     ". header content1 ."
     ". content2 lastphoto .";
-    grid-gap: 10px;
+    grid-gap: 1em;
     }
 }
