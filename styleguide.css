@@ -34,6 +34,9 @@ figure {
     border-style: solid;
     border-bottom-width: inherit;
     background-color: #0D0B09;
+    height: 100%;
+    min-width: 300px;
+    width: 100%
 }
 
 .sidebar {
@@ -49,11 +52,17 @@ figure {
 li {
     display: inline;
     padding: 20px;
+    cursor: pointer;
+}
+
+.active {
+    color: darkred;
 }
 
 nav {
     width: 100%;
     overflow: auto;
+
 }
 
 .title {
@@ -104,10 +113,10 @@ nav {
     font-family: Georgia, "Times New Roman", serif;
     color: #401C0F;
     background-repeat: no-repeat;
-    height: 30px;
-    text-shadow: 2px 2px #ff0000;
+    height: 40px;
+    text-shadow: 2px 2px red;
     font-size: 30px;
-    border: 2px dotted black;
+    border: 3px dotted antiquewhite;
     background-color: red;
 
 }
@@ -115,11 +124,12 @@ nav {
 h1 { line-height: 100%;
 	background-repeat: no-repeat;
 	background-position: right;
-	padding-left: 20px; 
+	padding: 4px 40px 20px 5px; 
 	height: 120px;
-	margin-bottom: 0;
+	margin-bottom: 1px;
     text-align: left;
     color: #111111;
+    font-style: oblique;
 }
 
 h1, h2 {
@@ -128,11 +138,12 @@ h1, h2 {
 }
 
 h2 {
-    color: darkgray; 
+    color: antiquewhite; 
     font-family: Arial, sans-serif;
 	margin: 5px;
     font-size: 30px;
     text-align: center;
+    border: 3px dotted black;
     }
 
 p {
@@ -163,5 +174,8 @@ p {
     ". header content1 ."
     ". content2 lastphoto .";
     grid-gap: 1em;
+    height: 100%;
+    min-width: 300px;
+    width: 100%;
     }
 }
