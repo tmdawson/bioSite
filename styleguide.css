@@ -28,7 +28,8 @@ figure {
     "sidebar sidebar"
     "title mainphoto"
     "header content1"
-    "content2 lastphoto";
+    "content2 lastphoto"
+    "footer footer";
     grid-gap: 1em;
     box-shadow: 3px 3px 3px darkgrey;
     border-style: solid;
@@ -85,6 +86,15 @@ nav {
     padding-top: 40px;
 }
 
+.footer {
+    grid-area: footer;
+    font-size: 10px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 6px;
+    color: antiquewhite;
+}
+
 .header {
     grid-area: header;
     align-self: start;
@@ -138,6 +148,7 @@ h1, h2 {
 }
 
 h2 {
+    background-color: saddlebrown;
     color: antiquewhite; 
     font-family: Arial, sans-serif;
 	margin: 5px;
@@ -155,12 +166,12 @@ p {
     }
 
 .chapterline {
-        font-weight: 500;
-        margin: 0;
-        font-size: 2em;    
-        color: antiquewhite;
-        background-color: #8C3F23;
-        font-style: oblique;
+    font-weight: 500;
+    margin: 0;
+    font-size: 2em;    
+    color: antiquewhite;
+    background-color: #8C3F23;
+    font-style: oblique;
     }
 
 @media screen and (min-width: 736px) {
@@ -172,7 +183,8 @@ p {
     ". sidebar sidebar ." 
     ". title mainphoto ."
     ". header content1 ."
-    ". content2 lastphoto .";
+    ". content2 lastphoto ."
+    ". footer footer .";
     grid-gap: 1em;
     height: 100%;
     min-width: 300px;
